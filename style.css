@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(115, 77, 155);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+.main{
+    background-color: rgb(162, 131, 170);
+    width: 1250px;
+    height: 100%;
+}
+header{
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+.home{
+    background-color: palegoldenrod;
+    border-radius: 50%;
+    width: 90px;
+    height: 30px;
+}
+.home p{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    font-family: monospace;
+    font-size: 18px;
+}
+.links{
+    display: flex;
+}
+.link{
+    background-color: palegoldenrod;
+    width: 90px;
+    height: 30px;
+    margin: 10px;
+}
+.link p{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    font-family: monospace;
+    font-size: 18px; 
+}
+a{
+    color: black;
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 500px;
+    font-size: 100px;
+    text-align: justify;
+    background-size: cover;
+    background-image: url("https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2022/4/18/2/shutterstock_many-flowers-bouquets-on-table-bazaar-1016544199.jpg.rend.hgtvcom.1280.640.suffix/1650306739287.jpeg");
+}
+
+.bigBox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    background-color: azure;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5%;
+}
+
+.circle1{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: blueviolet;
+    position: relative;
+    left: 270px;
+    bottom: 95px;
+    text-align: center;
+    font-size: 50px;
+}
+.circle2{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/548b6971e4b0af3bfe38cd6f/1462573739224-V0MYA5CG1BE9TNL9Q73I/image-asset.jpeg");
+    position: relative;
+    left: -25px;
+    bottom: 20px;
+}
+
+footer{
+    background-color: azure;
+    height: 50px;
+}
+footer p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    font-size: 40px;
+}
+h1{
+    text-align: center;
+    margin-top: -90px;
+    font-family: monospace;
+}
+p{
+    text-align: justify;
+    font-family: monospace;
+    font-size: large;
+}
+.box a{
+    margin-left: 125px;
+}
